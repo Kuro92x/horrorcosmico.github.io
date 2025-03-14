@@ -1,0 +1,128 @@
+@font-face{
+  font-family: "griego";
+  src:url("./DalekPinpointBold.ttf");
+}
+body {
+  background-color: #7e401a !important;
+}
+h1 {
+	color: black;
+  text-align: center;
+  overflow-wrap: keep-all !important;
+  font-family: "griego";
+}
+a{
+  color:#fff !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+h3 {
+  color: #c7b6a6;
+  text-align: center;
+  overflow-wrap: keep-all !important;
+  font-family: "Helvetica";
+}
+a{
+  color:#fff !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+button{
+  background-image: url("../imagenes/boton.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: black; 
+}
+
+.container {
+     position: absolute;
+     left: 48;
+     top: 45;
+     transform: translate(-50%, -50%);
+     padding: 10px;
+}
+
+input {
+  outline: none;
+  box-sizing: border-box;
+  height: 60px;
+  width: 0;
+  padding: 0 20px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #D50000;
+  transition: all .7s ease;
+  }
+ 
+ ::placeholder {
+  color: grey;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  background: #D50000;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5;
+  }
+
+  .btn i {
+    font-size: 25px;
+    color: white;
+    line-height: 80px;
+    transition: all .7s ease;
+    }
+
+.container:hover input {
+     width: 350px;
+ }
+
+ .container:hover i {
+      transform: rotate(-360deg);
+  }
+
+  .btn:hover {
+      background: #cc0000;
+  }
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

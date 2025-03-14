@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Registro</title>
+    <link rel="stylesheet" href="./css/estilo_jass.css">
+    <link href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+<body id="bLogin" class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div id="contLog" class="card shadow p-4" style="width: 25rem;">
+        <h3 class="text-center mb-3">Registro</h3>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre*" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" placeholder="Crea una contraseña" required>
+            </div>
+            <div class="mb-3">
+                <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirma tu contraseña" required>
+            </div>
+            <div class="mb-3">
+                <label for="credit card" class="form-label">Tarjeta De Crédito</label>
+                <input type="credit card" class="form-control" id="credit card" placeholder="Ingresa tu tarjeta de crédito*" required>
+            </div>
+           <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+        </form>
+        <p class="text-center mt-3">
+            ¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a>
+        </p>
+            <a href="index.html">Regresar</a>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

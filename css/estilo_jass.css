@@ -1,0 +1,116 @@
+@font-face{
+  font-family: "griego";
+  src:url("./DalekPinpointBold.ttf");
+}
+body {
+  background-color: #7e401a !important;
+}
+h1 {
+	color: black;
+  text-align: center;
+  overflow-wrap: keep-all !important;
+  font-family: "griego";
+}
+a{
+  color:#fff !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+#port_tit{
+  background-image: url("../imagenes/letrero.png");
+  background-size: cover !important; /* Para que la imagen cubra todo el div */
+  background-position: center; /* Para centrar la imagen */
+  height: 9rem;
+  padding: 12px;
+}
+
+#cont{
+  background-image: url("../imagenes/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+button{
+  background-image: url("../imagenes/boton.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*-----------------------------*/
+#bLogin{
+  background-image: url("../Imagenes/papiro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contLog{
+  background-image: url("../imagenes/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contLog h3{
+  font-family: "griego";
+  color: #fff;
+}
+
+#contLog label, p{
+  color:#fff;
+}
+
+/*-----------------------------*/
+#contVideo{
+  background-image: url("../imagenes/Background.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+#contVideo video{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/*-----------------------------*/
+header{
+  display: flex;
+  height: 70px;
+  background-color: coral;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+  margin-right: 10px;
+}
+
+header a{
+  text-decoration: none;
+  color:black;
+
+}
+header button{
+  margin-left: 10px;
+}
+header nav a{
+  font-weight: 600;
+  padding: 5px,5px,5px,5px;
+}
+header nav a:hover{
+  color:white;
+  background-color: rgb(100, 49, 31);
+  border-radius: 10px;
+
+}
